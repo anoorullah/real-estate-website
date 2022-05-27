@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu/>
       <div className="sections">
         <Intro/>
         <Website/>
